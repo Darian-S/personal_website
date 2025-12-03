@@ -494,7 +494,10 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
+.about .about-photo {
+  max-width: 260px;   /* adjust size if you want */
+  border-radius: 50%; /* keeps it nicely round */
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
