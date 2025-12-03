@@ -495,11 +495,11 @@ section {
   margin-bottom: 0;
 }
 .about .about-photo {
-  max-width: 300px;
-  border-radius: 10px;   /* subtle curve */
+  max-width: 420px;
+  border-radius: 12px;   /* subtle curve */
   display: block;
-  margin: 20px 0 0 -20px;  /* align left */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  margin: 20px 0 0 -40px;  /* align left */
+  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
 }
 /*--------------------------------------------------------------
 # Services
