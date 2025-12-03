@@ -495,11 +495,12 @@ section {
   margin-bottom: 0;
 }
 .about .about-photo {
-  max-width: 420px;
-  border-radius: 12px;   /* subtle curve */
+  max-width: 540px;        /* big, but still fits side-by-side */
+  width: 100%;
+  border-radius: 14px;     /* gentle curve, not circular */
   display: block;
-  margin: 20px 0 0 -40px;  /* align left */
-  box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  margin: 10px auto 0 -60px;  /* pulls it a little left */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
 }
 /*--------------------------------------------------------------
 # Services
